@@ -64,6 +64,9 @@ class Dibujo extends React.Component {
                       }
 
                   });
+                  
+        //reload storage client
+        window.location.reload(false);
 
     }
     
