@@ -58,9 +58,9 @@ var colorG = new Colors();
 
 
 function setup() { 
-  var canvas=createCanvas(640, 480);   
+  var canvas=createCanvas(screen.width-200, screen.height-300);   
   canvas.parent('tableroId');
-} 
+}
 
 function vaciar(){
     noLoop();

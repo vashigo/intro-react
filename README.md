@@ -46,13 +46,13 @@ mvn spring-boot:run
 visualize el juego en el navegador indicando la siguiente dirección:
 
 ```
-http://localhost:8080/
+http://localhost:8080/tablero.html
 ```
 
 # Diseño (diagrama de clases)
 
 <p align="center">
-    <img  src="img/diagrama.png">
+    <img  src="img/diseño.JPG">
 </p>
 
 # Built con
