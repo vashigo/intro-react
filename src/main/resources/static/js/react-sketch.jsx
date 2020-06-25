@@ -8,14 +8,15 @@ class Dibujo extends React.Component {
         };
     }
     
-    componentWillMount() {
+    componentDidMount() {
+
         this.timerID = setInterval(
                 () => this.checkStatusCircles(),               
-                1000
+                10
                 );
         this.timerID = setInterval(
                 () => this.addCircle(),               
-                5000
+                100
                 );
          
     
@@ -33,7 +34,7 @@ class Dibujo extends React.Component {
                     if (response.ok) {
                         return response.text();
                     } else {
-                        console.log("no paso :(", data);
+                        console.log("no paso", data);
                         throw "Error en la llamada Ajax";
                     }
 
@@ -64,7 +65,7 @@ class Dibujo extends React.Component {
                       }
 
                   });
-                  
+        vaciar();       
         //reload storage client
         window.location.reload(false);
 
