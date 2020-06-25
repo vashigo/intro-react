@@ -10,7 +10,7 @@ Construir un sistema tablero interactivo de dibujo multiusuario
 
 sistema tablero interactivo de dibujo multiusuario 
 
-* [tablero interactivo](https://tictactoe-arsw.herokuapp.com) - tablero interactivo
+* [tablero interactivo](https://react-tablero.herokuapp.com/tablero.html) - tablero interactivo
 
 
 # Prerequisitos
