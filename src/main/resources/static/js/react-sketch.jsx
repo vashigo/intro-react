@@ -12,11 +12,11 @@ class Dibujo extends React.Component {
 
         this.timerID = setInterval(
                 () => this.checkStatusCircles(),               
-                10
+                1000
                 );
         this.timerID = setInterval(
                 () => this.addCircle(),               
-                100
+                1000
                 );
          
     
